@@ -81,7 +81,7 @@ network = regression(network, optimizer='adam',
 
 model = tflearn.DNN(network, tensorboard_verbose=0, tensorboard_dir='tensorboard/')
 
-model.fit(X, Y, shuffle=True, validation_set=(X_test, Y_test),
+model.fit(X, Y, n_epoch=50, shuffle=True, validation_set=(X_test, Y_test),
           show_metric=True,
           snapshot_epoch=True,
           run_id='model_1')
