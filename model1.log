@@ -1,0 +1,165 @@
+---------------------------------
+Run id: model_1
+Log directory: tensorboard/
+---------------------------------
+Preprocessing... Calculating mean over all dataset (this may take long)...
+Mean: 120.707565124 (To avoid repetitive computation, add it to argument 'mean' of `add_featurewise_zero_center`)
+---------------------------------
+Preprocessing... Calculating std over all dataset (this may take long)...
+STD: 64.1500758911 (To avoid repetitive computation, add it to argument 'std' of `add_featurewise_stdnorm`)
+---------------------------------
+Training samples: 50000
+Validation samples: 10000
+--
+Training Step: 782  | total loss: 1.45112 | time: 26.740s
+| Adam | epoch: 001 | loss: 1.45112 - acc: 0.4775 | val_loss: 1.21350 - val_acc: 0.5580 -- iter: 50000/50000
+--
+Training Step: 1564  | total loss: 1.11869 | time: 31.495s
+| Adam | epoch: 002 | loss: 1.11869 - acc: 0.5803 | val_loss: 1.01696 - val_acc: 0.6417 -- iter: 50000/50000
+--
+Training Step: 2346  | total loss: 1.01626 | time: 31.000s
+| Adam | epoch: 003 | loss: 1.01626 - acc: 0.6314 | val_loss: 0.95293 - val_acc: 0.6681 -- iter: 50000/50000
+--
+Training Step: 3128  | total loss: 0.92026 | time: 35.740s
+| Adam | epoch: 004 | loss: 0.92026 - acc: 0.6755 | val_loss: 0.86342 - val_acc: 0.7120 -- iter: 50000/50000
+--
+Training Step: 3910  | total loss: 0.94313 | time: 42.811s
+| Adam | epoch: 005 | loss: 0.94313 - acc: 0.6801 | val_loss: 0.84349 - val_acc: 0.7194 -- iter: 50000/50000
+--
+Training Step: 4692  | total loss: 0.92010 | time: 36.552s
+| Adam | epoch: 006 | loss: 0.92010 - acc: 0.6730 | val_loss: 0.78664 - val_acc: 0.7279 -- iter: 50000/50000
+--
+Training Step: 5474  | total loss: 0.80336 | time: 39.446s
+| Adam | epoch: 007 | loss: 0.80336 - acc: 0.7299 | val_loss: 0.80748 - val_acc: 0.7317 -- iter: 50000/50000
+--
+Training Step: 6256  | total loss: 0.83454 | time: 36.812s
+| Adam | epoch: 008 | loss: 0.83454 - acc: 0.7242 | val_loss: 0.78675 - val_acc: 0.7368 -- iter: 50000/50000
+--
+Training Step: 7038  | total loss: 0.79634 | time: 29.624s
+| Adam | epoch: 009 | loss: 0.79634 - acc: 0.7197 | val_loss: 0.77650 - val_acc: 0.7462 -- iter: 50000/50000
+--
+Training Step: 7820  | total loss: 0.85125 | time: 32.764s
+| Adam | epoch: 010 | loss: 0.85125 - acc: 0.7071 | val_loss: 0.75122 - val_acc: 0.7485 -- iter: 50000/50000
+--
+Training Step: 8602  | total loss: 0.78879 | time: 29.870s
+| Adam | epoch: 011 | loss: 0.78879 - acc: 0.7427 | val_loss: 0.75152 - val_acc: 0.7539 -- iter: 50000/50000
+--
+Training Step: 9384  | total loss: 0.83515 | time: 33.857s
+| Adam | epoch: 012 | loss: 0.83515 - acc: 0.7380 | val_loss: 0.73973 - val_acc: 0.7525 -- iter: 50000/50000
+--
+Training Step: 10166  | total loss: 0.80884 | time: 38.894s
+| Adam | epoch: 013 | loss: 0.80884 - acc: 0.7341 | val_loss: 0.74950 - val_acc: 0.7532 -- iter: 50000/50000
+--
+Training Step: 10948  | total loss: 0.85007 | time: 35.063s
+| Adam | epoch: 014 | loss: 0.85007 - acc: 0.7259 | val_loss: 0.74933 - val_acc: 0.7510 -- iter: 50000/50000
+--
+Training Step: 11730  | total loss: 0.74039 | time: 33.064s
+| Adam | epoch: 015 | loss: 0.74039 - acc: 0.7643 | val_loss: 0.76833 - val_acc: 0.7544 -- iter: 50000/50000
+--
+Training Step: 12512  | total loss: 0.76610 | time: 34.928s
+| Adam | epoch: 016 | loss: 0.76610 - acc: 0.7657 | val_loss: 0.74486 - val_acc: 0.7570 -- iter: 50000/50000
+--
+Training Step: 13294  | total loss: 0.70812 | time: 36.071s
+| Adam | epoch: 017 | loss: 0.70812 - acc: 0.7569 | val_loss: 0.77539 - val_acc: 0.7624 -- iter: 50000/50000
+--
+Training Step: 14076  | total loss: 0.66344 | time: 43.517s
+| Adam | epoch: 018 | loss: 0.66344 - acc: 0.7730 | val_loss: 0.76569 - val_acc: 0.7643 -- iter: 50000/50000
+--
+Training Step: 14858  | total loss: 0.63293 | time: 31.538s
+| Adam | epoch: 019 | loss: 0.63293 - acc: 0.7785 | val_loss: 0.78959 - val_acc: 0.7647 -- iter: 50000/50000
+--
+Training Step: 15640  | total loss: 0.79628 | time: 36.974s
+| Adam | epoch: 020 | loss: 0.79628 - acc: 0.7681 | val_loss: 0.80534 - val_acc: 0.7631 -- iter: 50000/50000
+--
+Training Step: 16422  | total loss: 0.82472 | time: 37.585s
+| Adam | epoch: 021 | loss: 0.82472 - acc: 0.7661 | val_loss: 0.78337 - val_acc: 0.7630 -- iter: 50000/50000
+--
+Training Step: 17204  | total loss: 0.87526 | time: 42.518s
+| Adam | epoch: 022 | loss: 0.87526 - acc: 0.7535 | val_loss: 0.76686 - val_acc: 0.7667 -- iter: 50000/50000
+--
+Training Step: 17986  | total loss: 0.88670 | time: 36.234s
+| Adam | epoch: 023 | loss: 0.88670 - acc: 0.7630 | val_loss: 0.79550 - val_acc: 0.7579 -- iter: 50000/50000
+--
+Training Step: 18768  | total loss: 0.53457 | time: 44.489s
+| Adam | epoch: 024 | loss: 0.53457 - acc: 0.8056 | val_loss: 0.86201 - val_acc: 0.7603 -- iter: 50000/50000
+--
+Training Step: 19550  | total loss: 1.00407 | time: 36.474s
+| Adam | epoch: 025 | loss: 1.00407 - acc: 0.7758 | val_loss: 0.83430 - val_acc: 0.7578 -- iter: 50000/50000
+--
+Training Step: 20332  | total loss: 0.92525 | time: 34.911s
+| Adam | epoch: 026 | loss: 0.92525 - acc: 0.7657 | val_loss: 0.82842 - val_acc: 0.7630 -- iter: 50000/50000
+--
+Training Step: 21114  | total loss: 0.95163 | time: 36.666s
+| Adam | epoch: 027 | loss: 0.95163 - acc: 0.7852 | val_loss: 0.84956 - val_acc: 0.7606 -- iter: 50000/50000
+--
+Training Step: 21896  | total loss: 0.96194 | time: 46.042s
+| Adam | epoch: 028 | loss: 0.96194 - acc: 0.7907 | val_loss: 0.90174 - val_acc: 0.7522 -- iter: 50000/50000
+--
+Training Step: 22678  | total loss: 1.25526 | time: 36.105s
+| Adam | epoch: 029 | loss: 1.25526 - acc: 0.7502 | val_loss: 0.88100 - val_acc: 0.7547 -- iter: 50000/50000
+--
+Training Step: 23460  | total loss: 0.62376 | time: 39.278s
+| Adam | epoch: 030 | loss: 0.62376 - acc: 0.7912 | val_loss: 0.87535 - val_acc: 0.7560 -- iter: 50000/50000
+--
+Training Step: 24242  | total loss: 1.20455 | time: 35.206s
+| Adam | epoch: 031 | loss: 1.20455 - acc: 0.7460 | val_loss: 0.87428 - val_acc: 0.7619 -- iter: 50000/50000
+--
+Training Step: 25024  | total loss: 1.55091 | time: 38.813s
+| Adam | epoch: 032 | loss: 1.55091 - acc: 0.7335 | val_loss: 0.89776 - val_acc: 0.7657 -- iter: 50000/50000
+--
+Training Step: 25806  | total loss: 0.57272 | time: 37.943s
+| Adam | epoch: 033 | loss: 0.57272 - acc: 0.7975 | val_loss: 0.89853 - val_acc: 0.7635 -- iter: 50000/50000
+--
+Training Step: 26588  | total loss: 0.52586 | time: 37.889s
+| Adam | epoch: 034 | loss: 0.52586 - acc: 0.8050 | val_loss: 0.92720 - val_acc: 0.7692 -- iter: 50000/50000
+--
+Training Step: 27370  | total loss: 0.54122 | time: 40.236s
+| Adam | epoch: 035 | loss: 0.54122 - acc: 0.8034 | val_loss: 0.94689 - val_acc: 0.7619 -- iter: 50000/50000
+--
+Training Step: 28152  | total loss: 0.57372 | time: 43.246s
+| Adam | epoch: 036 | loss: 0.57372 - acc: 0.8176 | val_loss: 1.00515 - val_acc: 0.7618 -- iter: 50000/50000
+--
+Training Step: 28934  | total loss: 0.51248 | time: 34.779s
+| Adam | epoch: 037 | loss: 0.51248 - acc: 0.8334 | val_loss: 0.98949 - val_acc: 0.7622 -- iter: 50000/50000
+--
+Training Step: 29716  | total loss: 0.52672 | time: 36.975s
+| Adam | epoch: 038 | loss: 0.52672 - acc: 0.8067 | val_loss: 0.97881 - val_acc: 0.7715 -- iter: 50000/50000
+--
+Training Step: 30498  | total loss: 0.49555 | time: 37.291s
+| Adam | epoch: 039 | loss: 0.49555 - acc: 0.8294 | val_loss: 0.99426 - val_acc: 0.7695 -- iter: 50000/50000
+--
+Training Step: 31280  | total loss: 0.48336 | time: 44.753s
+| Adam | epoch: 040 | loss: 0.48336 - acc: 0.8338 | val_loss: 0.96370 - val_acc: 0.7724 -- iter: 50000/50000
+--
+Training Step: 32062  | total loss: 0.49856 | time: 36.745s
+| Adam | epoch: 041 | loss: 0.49856 - acc: 0.8184 | val_loss: 1.02262 - val_acc: 0.7674 -- iter: 50000/50000
+--
+Training Step: 32844  | total loss: 0.47257 | time: 41.535s
+| Adam | epoch: 042 | loss: 0.47257 - acc: 0.8369 | val_loss: 1.02262 - val_acc: 0.7654 -- iter: 50000/50000
+--
+Training Step: 33626  | total loss: 0.53556 | time: 41.339s
+| Adam | epoch: 043 | loss: 0.53556 - acc: 0.8162 | val_loss: 1.01680 - val_acc: 0.7639 -- iter: 50000/50000
+--
+Training Step: 34408  | total loss: 0.45019 | time: 41.516s
+| Adam | epoch: 044 | loss: 0.45019 - acc: 0.8472 | val_loss: 1.04911 - val_acc: 0.7697 -- iter: 50000/50000
+--
+Training Step: 35190  | total loss: 0.52018 | time: 42.291s
+| Adam | epoch: 045 | loss: 0.52018 - acc: 0.8229 | val_loss: 1.04590 - val_acc: 0.7641 -- iter: 50000/50000
+--
+Training Step: 35972  | total loss: 0.49592 | time: 36.982s
+| Adam | epoch: 046 | loss: 0.49592 - acc: 0.8232 | val_loss: 1.04078 - val_acc: 0.7673 -- iter: 50000/50000
+--
+Training Step: 36754  | total loss: 0.48024 | time: 34.645s
+| Adam | epoch: 047 | loss: 0.48024 - acc: 0.8325 | val_loss: 1.03538 - val_acc: 0.7627 -- iter: 50000/50000
+--
+Training Step: 37536  | total loss: 0.49538 | time: 42.060s
+| Adam | epoch: 048 | loss: 0.49538 - acc: 0.8255 | val_loss: 1.03531 - val_acc: 0.7691 -- iter: 50000/50000
+--
+Training Step: 38318  | total loss: 0.44757 | time: 38.294s
+| Adam | epoch: 049 | loss: 0.44757 - acc: 0.8380 | val_loss: 1.12807 - val_acc: 0.7658 -- iter: 50000/50000
+--
+Training Step: 39100  | total loss: 0.42687 | time: 41.302s
+| Adam | epoch: 050 | loss: 0.42687 - acc: 0.8505 | val_loss: 1.11679 - val_acc: 0.7694 -- iter: 50000/50000
+--
+Network trained and saved as model_1.tfl!
+
