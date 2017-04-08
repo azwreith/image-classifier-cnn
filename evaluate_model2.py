@@ -79,6 +79,6 @@ label = [Y_test[random]]
 predictedLabel = [Y_pred[random]]
 print("Acutal: " + target_names[label[0]])
 print("Predicted:" + target_names[predictedLabel[0]])
-plt.imshow(toimage(image[0]), interpolation='nearest')
+plt.imshow(toimage(image[0]), interpolation='bicubic')
 plt.axis('off')
 plt.show()
