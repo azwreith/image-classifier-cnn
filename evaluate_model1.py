@@ -10,6 +10,9 @@ from sklearn.metrics import classification_report
 import pickle
 import os
 import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+from random import randint
 
 
 def load_CIFAR_test():
@@ -25,6 +28,10 @@ def load_CIFAR_test():
 
 # Load the datasets
 X_test, Y_test = load_CIFAR_test()
+
+# Get a random image for later
+random = randint(0,9999)
+image = [X_test[random]]
 
 # Use one hot encoding
 Y_test = to_categorical(Y_test, 10)
@@ -55,7 +62,7 @@ network = regression(network, optimizer='adam',
                      learning_rate=0.001)
 
 model = tflearn.DNN(network, tensorboard_verbose=0, tensorboard_dir='tensorboard/')
-model.load("models/model_1.tfl")
+model.load("models/model_1/model_1.tfl")
 
 # Get Metrics
 
@@ -65,3 +72,11 @@ Y_pred = model.predict(X_test)
 Y_test = np.argmax(Y_test, axis=1)
 Y_pred = np.argmax(Y_pred, axis=1)
 print(classification_report(Y_test, Y_pred, target_names=target_names))
+
+# Get a random image and show classification
+# label = [Y_test[random]]
+# predictedLabel = [Y_pred[random]]
+# print("Acual: " + target_names[label[0]])
+# print("Predicted:" + target_names[predictedLabel[0]])
+# plt.imshow(image[0])
+# plt.show()
