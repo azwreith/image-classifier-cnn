@@ -13,6 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from random import randint
+from scipy.misc import toimage
 
 
 def load_CIFAR_test():
@@ -74,9 +75,10 @@ Y_pred = np.argmax(Y_pred, axis=1)
 print(classification_report(Y_test, Y_pred, target_names=target_names))
 
 # Get a random image and show classification
-# label = [Y_test[random]]
-# predictedLabel = [Y_pred[random]]
-# print("Acual: " + target_names[label[0]])
-# print("Predicted:" + target_names[predictedLabel[0]])
-# plt.imshow(image[0])
-# plt.show()
+label = [Y_test[random]]
+predictedLabel = [Y_pred[random]]
+print("Acutal: " + target_names[label[0]])
+print("Predicted:" + target_names[predictedLabel[0]])
+plt.imshow(toimage(image[0]), interpolation='nearest')
+plt.axis('off')
+plt.show()
