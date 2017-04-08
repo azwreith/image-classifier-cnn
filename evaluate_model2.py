@@ -49,7 +49,7 @@ network = input_data(shape=[None, 32, 32, 3],
                      data_preprocessing=img_prep,
                      data_augmentation=img_aug)
 
-network = conv_2d(network, 32, 3, activation='prelu')
+network = conv_2d(network, 32, 3, activation='relu')
 network = max_pool_2d(network, 2)
 network = conv_2d(network, 64, 3, activation='prelu')
 network = conv_2d(network, 64, 3, activation='prelu')
